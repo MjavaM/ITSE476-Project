@@ -1,0 +1,267 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container styles */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #ffffff29;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+     /* CSS code for select and options */
+     select  {
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 200px; /* Adjust the width as needed */
+    }
+
+    option {
+        padding: 10px;
+        font-size: 16px;
+        background-color: #fffdfd;
+        color: #333;
+    }
+
+    select option:checked {
+        background-color: #e0e0e0;
+    }
+
+
+/* Heading styles */
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Form styles */
+form {
+    width: 100%;
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type="file"] {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar ul.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar ul.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+/* Responsive Navbar */
+@media screen and (max-width: 768px) {
+    .navbar .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .navbar ul.nav-links {
+        margin-top: 10px;
+    }
+
+    .navbar ul.nav-links li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .navbar ul.nav-links li:last-child {
+        margin-bottom: 0;
+    }
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th,
+table td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+table th {
+    background-color: #333;
+    color: #fff;
+}
+
+table td {
+    background-color: #f9f9f9;
+}
+
+.btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-edit {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.btn-delete {
+    background-color: #f44336;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+@media screen and (max-width: 768px) {
+
+    table th,
+    table td {
+        font-size: 14px;
+    }
+}
+.btn-add-product {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.btn-add-product:hover {
+    background-color: #45a049;
+}
+.table-responsive {
+    overflow-x: auto;
+}
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-item {
+    position: relative;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.existing-image {
+    width: 100px; /* Adjust as needed */
+    height: auto;
+    border: 1px solid #ccc; /* Example border */
+}
+
+.delete-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    color: white;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+    td a.btn {
+        display: block; /* Display buttons as block-level elements */
+        margin-bottom: 5px; /* Add some vertical space between buttons */
+    }
+}
+
+
+   

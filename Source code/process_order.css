@@ -1,0 +1,41 @@
+/* process_order.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Order Details Container */
+  .order-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .order-details {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+  }
+  
+  .order-details h2 {
+    margin-top: 0;
+  }
+  
+  .order-details p {
+    margin: 0.5rem 0;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .order-container {
+      padding: 1rem;
+    }
+  }

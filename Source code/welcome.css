@@ -1,0 +1,87 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 20px 0;
+  text-align: center;
+}
+
+/* Main Content Styles */
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding: 20px;
+  width: 98%;
+  
+  
+}
+
+.card1, .card2, .card3, .card4, .card5, .card6 {
+  background-color: #f1f1f1;
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.card1 {
+  background-image: url("image/fruite.jpg");
+}
+
+.card2 {
+  background-image: url("image/drink.jpg");
+}
+
+.card3 {
+  background-image: url("image/egg.jpg");
+}
+
+.card4 {
+  background-image: url("image/vegetable.jpg");
+}
+
+.card5 {
+  background-image: url("image/sweet.jpg");
+}
+
+.card6 {
+  background-image: url("image/pet.jpg");
+}
+
+.card1 a, .card2 a, .card3 a, .card4 a, .card5 a, .card6 a {
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.card1 i, .card2 i {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.card1 h1, .card2 h1, .card3 h1, .card4 h1, .card5 h1, .card6 h1 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  main {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+}
